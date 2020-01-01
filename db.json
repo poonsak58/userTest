@@ -1,1 +1,24 @@
 
+{
+  "users": [
+    {
+      "id": "AAAA",
+      "title": "AAAA"
+    },
+    {
+      "id": "BBBB",
+      "title": "BBBB"
+    },
+    {
+      "id": "CCCC",
+      "title": "CCCC"
+    },
+    {
+      "id": "DDDD",
+      "title": "DDDD"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
