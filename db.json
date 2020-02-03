@@ -1,23 +1,359 @@
 {
-  "users": [
-    {
-      "id": "aaaa",
-      "title": "AAAA"
+    "objectIdFieldName": "OBJECTID",
+    "uniqueIdField": {
+        "name": "OBJECTID",
+        "isSystemMaintained": true
     },
-    {
-      "id": "bbbb",
-      "title": "BBBB"
+    "globalIdFieldName": "",
+    "geometryType": "esriGeometryPoint",
+    "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
     },
-    {
-      "id": "cccc",
-      "title": "CCCC"
-    },
-    {
-      "id": "dddd",
-      "title": "DDDD"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "fields": [
+        {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "Country_Region",
+            "type": "esriFieldTypeString",
+            "alias": "Country_Region",
+            "sqlType": "sqlTypeOther",
+            "length": 8000,
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "Last_Update",
+            "type": "esriFieldTypeDate",
+            "alias": "Last_Update",
+            "sqlType": "sqlTypeOther",
+            "length": 8,
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "Lat",
+            "type": "esriFieldTypeDouble",
+            "alias": "Lat",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "Long_",
+            "type": "esriFieldTypeDouble",
+            "alias": "Long",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "Confirmed",
+            "type": "esriFieldTypeInteger",
+            "alias": "Confirmed",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "Deaths",
+            "type": "esriFieldTypeInteger",
+            "alias": "Deaths",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "Recovered",
+            "type": "esriFieldTypeInteger",
+            "alias": "Recovered",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        }
+    ],
+    "features": [
+        {
+            "attributes": {
+                "OBJECTID": 12,
+                "Country_Region": "Mainland China",
+                "Last_Update": 1580419800000,
+                "Lat": 30.97564,
+                "Long_": 112.2707,
+                "Confirmed": 9658,
+                "Deaths": 213,
+                "Recovered": 179
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 20,
+                "Country_Region": "Thailand",
+                "Last_Update": 1580419800000,
+                "Lat": 13.7563,
+                "Long_": 100.5018,
+                "Confirmed": 14,
+                "Deaths": null,
+                "Recovered": 5
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 7,
+                "Country_Region": "Hong Kong",
+                "Last_Update": 1580419800000,
+                "Lat": 22.3193,
+                "Long_": 114.1694,
+                "Confirmed": 12,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 10,
+                "Country_Region": "Japan",
+                "Last_Update": 1580419800000,
+                "Lat": 35.6762,
+                "Long_": 139.6503,
+                "Confirmed": 11,
+                "Deaths": null,
+                "Recovered": 1
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 16,
+                "Country_Region": "Singapore ",
+                "Last_Update": 1580419800000,
+                "Lat": 1.3521,
+                "Long_": 103.8198,
+                "Confirmed": 10,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1,
+                "Country_Region": "Australia",
+                "Last_Update": 1580419800000,
+                "Lat": -25.2744,
+                "Long_": 133.7751,
+                "Confirmed": 9,
+                "Deaths": null,
+                "Recovered": 2
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 19,
+                "Country_Region": "Taiwan",
+                "Last_Update": 1580419800000,
+                "Lat": 23.6978,
+                "Long_": 120.9605,
+                "Confirmed": 9,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 13,
+                "Country_Region": "Malaysia ",
+                "Last_Update": 1580419800000,
+                "Lat": 4.2105,
+                "Long_": 101.9758,
+                "Confirmed": 8,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 11,
+                "Country_Region": "Macau",
+                "Last_Update": 1580419800000,
+                "Lat": 22.1987,
+                "Long_": 113.5439,
+                "Confirmed": 7,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 17,
+                "Country_Region": "South Korea",
+                "Last_Update": 1580419800000,
+                "Lat": 37.5665,
+                "Long_": 126.978,
+                "Confirmed": 6,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 22,
+                "Country_Region": "US",
+                "Last_Update": 1580419800000,
+                "Lat": 37.0902,
+                "Long_": -95.7129,
+                "Confirmed": 6,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 5,
+                "Country_Region": "France",
+                "Last_Update": 1580419800000,
+                "Lat": 46.2276,
+                "Long_": 2.2137,
+                "Confirmed": 5,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 6,
+                "Country_Region": "Germany",
+                "Last_Update": 1580419800000,
+                "Lat": 51.1657,
+                "Long_": 10.4515,
+                "Confirmed": 4,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 21,
+                "Country_Region": "United Arab Emirates",
+                "Last_Update": 1580419800000,
+                "Lat": 23.4241,
+                "Long_": 53.8478,
+                "Confirmed": 4,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 3,
+                "Country_Region": "Canada",
+                "Last_Update": 1580419800000,
+                "Lat": 43.6532,
+                "Long_": -79.3832,
+                "Confirmed": 3,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 9,
+                "Country_Region": "Italy",
+                "Last_Update": 1580419800000,
+                "Lat": 41.8719,
+                "Long_": 12.5674,
+                "Confirmed": 2,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 23,
+                "Country_Region": "Vietnam",
+                "Last_Update": 1580419800000,
+                "Lat": 21.0278,
+                "Long_": 105.8342,
+                "Confirmed": 2,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 2,
+                "Country_Region": "Cambodia",
+                "Last_Update": 1580419800000,
+                "Lat": 12.5657,
+                "Long_": 104.991,
+                "Confirmed": 1,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 4,
+                "Country_Region": "Finland",
+                "Last_Update": 1580419800000,
+                "Lat": 61.9241,
+                "Long_": 25.7482,
+                "Confirmed": 1,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 8,
+                "Country_Region": "India",
+                "Last_Update": 1580419800000,
+                "Lat": 20.5937,
+                "Long_": 78.9629,
+                "Confirmed": 1,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 14,
+                "Country_Region": "Nepal",
+                "Last_Update": 1580419800000,
+                "Lat": 28.3949,
+                "Long_": 84.124,
+                "Confirmed": 1,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 15,
+                "Country_Region": "Philippines",
+                "Last_Update": 1580419800000,
+                "Lat": 12.8797,
+                "Long_": 121.774,
+                "Confirmed": 1,
+                "Deaths": null,
+                "Recovered": null
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 18,
+                "Country_Region": "Sri Lanka",
+                "Last_Update": 1580419800000,
+                "Lat": 7.8731,
+                "Long_": 80.7718,
+                "Confirmed": 1,
+                "Deaths": null,
+                "Recovered": null
+            }
+        }
+    ]
 }
